@@ -2,34 +2,35 @@
 <html>
 
 <head>
+  <link rel="icon" href="images/blogger.png" type="image/png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Form</title>
+  <title>Đăng Nhập</title>
   <link rel="stylesheet" href="login.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <form action="#">
-      <h2>Login Form</h2>
+    <form action="/login" method="POST">
+      <h2>Đăng Nhập</h2>
       <div class="input-field">
         <input type="text" required>
-        <label>Enter your email</label>
+        <label>Nhập emai của bạn</label>
       </div>
       <div class="input-field">
         <input type="password" required>
-        <label>Enter your password</label>
+        <label>Nhập mật khẩu của bạn</label>
       </div>
       <div class="forget">
         <label for="remember">
           <input type="checkbox" id="remember">
-          <p>Remember me</p>
+          <p>Ghi nhớ Đăng Nhập</p>
         </label>
-        <a href="#">Forgot password?</a>
+        <a href="#">Quên mật khẩu?</a>
       </div>
-      <button type="submit">Log In</button>
+      <button type="submit">Đăng Nhập</button>
       <div class="register">
-        <p>Don't have an account? <a href="#">Register</a></p>
+        <p>Không có tài khoản? <a href="register.html">Đăng Ký</a></p>
       </div>
     </form>
   </div>
