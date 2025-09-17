@@ -1,3 +1,10 @@
+/* Thanh hiển thị độ mạnh mật khẩu */
+#password-strength {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: left;
+}
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
 
 * {
